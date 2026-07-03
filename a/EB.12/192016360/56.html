@@ -1,0 +1,272 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DIFFERENTIAL CALCULUS — Suppl. 4–6th (1824)</title><link rel="stylesheet" href="../../../style.css"></head><body><div class="wrap"><div class="crumb"><a href="https://jimclifford.ca/britannica-wiki/">Encyclopædia Britannica 1771–1860</a></div><main data-pagefind-body data-pagefind-filter="edition:Suppl. 4–6th (1824)" data-pagefind-filter="type:article"><div class="folio"><a href="55.html">‹ DIETETICS</a><span class="pg">Suppl. 4–6th (1824) · vol. 3 · p. 568</span><a href="57.html">DILLENIUS ›</a></div><h1 class="headword spaced">DIFFERENTIAL CALCULUS</h1><p class="provenance">article · 15,936 chars · <a href="https://jimclifford.ca/britannica-wiki/l/D/DIFFERENTIAL.html">lineage ↗</a> · <a href="https://digital.nls.uk/encyclopaedia-britannica/archive/192016360#?c=0&m=0&s=0&cv=702">page image at NLS ↗</a></p><div class="article-body"><p><b>DIFFERENTIAL CALCULUS.</b> The Differential Calculus was embarrassed for many years after its first appearance, by considerations of Motion, Limits, and Infinitesimals. Our countryman, <a href="https://jimclifford.ca/britannica-wiki/l/L/LANDEN.html">Landen</a>, having made an ineffectual attempt to remove these difficulties, the subject was taken up by Arbogast, who completely new-modelled the Calculus, and founded it upon a pure analytical basis. The genius of La <a href="https://jimclifford.ca/britannica-wiki/l/G/GRANGE.html">Grange</a> first established the new system, but left the theory obscure and the practical application inconvenient; by attempts to demonstrate matters of definition; by innovations in the notation; and by the universal substitution of the differential coefficients for the differentials themselves. Many of these defects were pointed out by Mr Woodhouse; and the following propositions present a systematic view of the calculus in its latest form, with some further modification of the principles, and some generalization of the formulae.</p>
+<p>1. If <math>f(x+h)</math> can be expanded in the form</p>
+<div data-bbox="174 811 423 832" data-label="Equation-Block">
+<math display="block">f(x) + f_1(x) \cdot h + f_2(x) \cdot h^2 + \dots</math>
+</div>
+<p>Then <math>f_1(x)</math> is called the differential function of <math>f(x)</math>, and its relation to <math>f(x)</math> is thus expressed, <math>f_1(x) = Df(x)</math>.</p>
+<p>2. If <math>(x+h)</math> be put under the form <math>(x) + D(x) \cdot h</math>, it appears that <math>Dx = 1</math>. This, however, is entirely arbitrary, and unity is merely selected for convenience, since by defining the differential function to be the coefficient in the second term of <math>f(x+a \cdot h)</math> expanded, we should have had <math>Dx = a</math>. Similarly <math>(c) = (c) + D(c) \cdot h</math>, and <math>D(c) = a</math>.</p>
+<p>3. In different functions of the same principal variable (<math>x</math>), we may avoid a perpetual reference to (<math>x</math>), and have the advantage of considering such functions as independent variables, by means of another symbol, which shall denote expressions proportional to the differential functions. Thus <math>d\varphi(x)</math>, <math>d\Psi(x)</math> are called differentials, and are merely limited to satisfy the equation, <math>D\varphi(x) \times d\Psi(x) = D\Psi(x) \times d\varphi(x)</math>.</p>
+<p>4. Hence <math>du</math>, <math>dz</math>, <math>dv</math>, &amp;c. are expressions proportional to the differential functions of <math>u</math>, <math>z</math>, <math>v</math>, &amp;c., considered as functions of some variable, the same in all of them.</p>
+<p>5. If in the equation <math>D\varphi(x) \cdot d\Psi(x) = D\Psi(x) \cdot d\varphi(x)</math>, we take <math>\varphi(x) = (x)</math>, then <math>D(x) \cdot d\Psi(x) = D\Psi(x) \cdot dx</math>, or <math>d\Psi(x) = D\Psi(x) \cdot dx</math>.</p>
+<p>6. If there are several characteristics, <math>D</math> only refers to the first, thus <math>Df_1 f_2(x) = Df_1 \left\{ f_2(x) \right\}</math>, <math>Df_2</math> being always regarded as a single symbol.</p>
+<div data-bbox="87 106 423 157" data-label="Equation-Block">
+<math display="block">\begin{aligned} df_n \dots f_1 f(x) &amp;= Df_n f_{n-1} \dots f_1 f(x) \times df_{n-1} \dots f_1 f(x) \\ &amp;= dx \times Df_1 f(x) \times Df_2 f(x) \times \dots \end{aligned}</math>
+</div>
+<div data-bbox="87 212 476 236" data-label="Equation-Block">
+<math display="block">df^n(x) = dx \times Df(x) \times Df(x) \times \dots \times Df(x)^{n-1}.</math>
+</div>
+<div data-bbox="87 359 388 379" data-label="Equation-Block">
+<math display="block">x = ff^{-1}(x), \quad dx = Df f^{-1}(x) \times df^{-1}(x)</math>
+</div>
+<div data-bbox="93 380 279 411" data-label="Equation-Block">
+<math display="block">\therefore df^{-1}(x) = \frac{dx}{Df f^{-1}(x)}</math>
+</div>
+<div data-bbox="87 565 476 653" data-label="Equation-Block">
+<math display="block">F \{ f_1(x), \dots, f_n(x) \} + Df_1 \{ f_1(x), \dots, f_n(x) \} \times Df(x) + Df_2 \{ f_1(x), \dots, f_n(x) \} \times Df(x) + \dots</math>
+</div>
+<div data-bbox="87 764 476 830" data-label="Equation-Block">
+<math display="block">Df_1 \{ f_1(x), \dots, f_n(x) \} \times Df(x) + Df_2 \{ f_1(x), \dots, f_n(x) \} \times Df(x) + \dots</math>
+</div>
+<div data-bbox="87 861 476 927" data-label="Equation-Block">
+<math display="block">Df_1 \{ f_1(x), \dots, f_n(x) \} \times Df(x) + Df_2 \{ f_1(x), \dots, f_n(x) \} \times Df(x) + \dots</math>
+</div>
+<div data-bbox="507 148 742 180" data-label="Equation-Block">
+<math display="block">\text{Cor. 1. } dF \{ f_1(x), \dots, f_n(x) \}</math>
+</div>
+<div data-bbox="507 183 821 212" data-label="Equation-Block">
+<math display="block">= Df_1 \{ f_1(x), \dots, f_n(x) \} \times Df_1(x) \times dx + \dots</math>
+</div>
+<div data-bbox="507 212 783 243" data-label="Equation-Block">
+<math display="block">= Df_2 \{ f_1(x), \dots, f_n(x) \} \times Df_2(x) \times dx + \dots</math>
+</div>
+<div data-bbox="520 289 837 319" data-label="Equation-Block">
+<math display="block">dF \{ u, z, \dots \} = Df_1 \{ u, z, \dots \} \cdot du +</math>
+</div>
+<div data-bbox="579 319 783 349" data-label="Equation-Block">
+<math display="block">Df_2 \{ u, z, \dots \} \cdot dz + \dots</math>
+</div>
+<div data-bbox="520 710 807 774" data-label="Equation-Block">
+<math display="block">\begin{aligned} x^1 a &amp;= x + a \\ x^2 a &amp;= x \times a \\ &amp;= x + \{ x + \dots \text{ to } (a) \text{ terms.} \} \end{aligned}</math>
+</div>
+<div data-bbox="520 774 807 830" data-label="Equation-Block">
+<math display="block">\begin{aligned} x^3 a &amp;= x^a \\ &amp;= x \times \{ x \times \dots \text{ to } (a) \text{ terms.} \} \end{aligned}</math>
+</div>
+<div data-bbox="520 830 721 861" data-label="Equation-Block">
+<math display="block">x^{\frac{1}{2}} a = x^{\frac{1}{2} a} \dots \text{ to } (a) \text{ terms.}</math>
+</div>
+<div data-bbox="520 878 813 907" data-label="Equation-Block">
+<math display="block">x^{\frac{n+1}{n}} a = x^{\frac{n+1}{n}} \{ x^{\frac{n}{n}} \dots \text{ to } (a) \text{ terms.} \}</math>
+</div>
+<p>Differential Calculus. 2. The primary inverse relations are found by determining <math>z</math> from the equation <math>z^n = a = x</math>. They are <math>x = a, x \div a, \sqrt[n]{x}, \&amp;c.</math></p>
+<p>3. The primary reciprocal relations are represented by <math>a \div x, (a)</math> and <math>(x)</math> being interchanged, and are <math>a + x, a \times x, a^x, a^{\frac{1}{x}}</math> to <math>(x)</math> terms, &amp;c.</p>
+<p>4. The primary inverse reciprocal relations are found by determining <math>(z)</math> from the equation <math>a \div z = x</math>, thus from <math>x = a \div z = a^{\frac{1}{z}}</math> is deduced <math>\log(x)</math> base <math>(a)</math>.</p>
+<p>5. By taking alternately the reciprocal and inverse forms of the first three relations, we shall find that they circulate and only introduce known functions. Thus <math>x^a</math> becomes <math>ax, \log(x)</math> base <math>(a), \log(a)</math> base <math>(x), a^{\frac{1}{x}}, x^{\frac{1}{a}}, x^a.</math></p>
+<p>6. Every finite expression now used, is composed of these primary relations. It cannot therefore be a matter of surprise that analysis should frequently present expressions appearing to pass into each other discontinuously and without a law, when the laws of succession in these fundamental forms have never been stated; and the functions beyond <math>x \pm a</math> have not even been mentioned.</p>
+<p>PROP. IV.—To find the Differentials of Functions under the first relation.</p>
+<div data-bbox="125 495 515 645" data-label="Equation-Block">
+<p>If the expression be <math>f_1(x) + f_2(x),</math></p>
+<math display="block">f_1(x+h) + f_2(x+h) = \left\{ \begin{array}{l} f_1(x) + D_1 f_1(x) \cdot h + \dots \\ + f_2(x) + D_2 f_2(x) \cdot h + \dots \end{array} \right.</math>
+<math display="block">= f_1(x) + f_2(x) + \left\{ D_1 f_1(x) + D_2 f_2(x) \right\} \cdot h + \dots</math>
+<math display="block">\therefore D \left\{ f_1(x) + f_2(x) \right\} = D_1 f_1(x) + D_2 f_2(x)</math>
+</div>
+<p>Similarly</p>
+<div data-bbox="125 668 492 802" data-label="Equation-Block">
+<math display="block">D \left\{ f_1(x) - f_2(x) \right\} = D_1 f_1(x) - D_2 f_2(x)</math>
+<math display="block">\text{Cor. 1. } d \left\{ x \pm \dots x \right\} = dx \pm \dots dx</math>
+<math display="block">\text{Cor. 2. } D \left\{ f(x) \pm a \right\} = Df(x) \pm D(a)</math>
+<math display="block">= Df(x)</math>
+<math display="block">\text{Cor. 3. } d(x \pm a) = dx, d(a \pm x) = \pm dx.</math>
+</div>
+<p>PROP. V.—To find the Differentials of Functions under the second relation.</p>
+<div data-bbox="125 845 515 927" data-label="Equation-Block">
+<p>If the expression be <math>f_1(x) \times f_2(x),</math></p>
+<math display="block">f_1(x+h) \times f_2(x+h) = \left\{ \begin{array}{l} f_1(x) + D_1 f_1(x) \cdot h + \dots \\ \times \\ f_2(x) + D_2 f_2(x) \cdot h + \dots \end{array} \right.</math>
+</div>
+<div data-bbox="527 47 841 107" data-label="Equation-Block">
+<math display="block">= f_1(x) \times f_2(x) + \left\{ D_1 f_1(x) \cdot f_2(x) + D_2 f_2(x) \cdot f_1(x) \right\} \cdot h + \dots</math>
+</div>
+<div data-bbox="527 107 843 170" data-label="Equation-Block">
+<math display="block">\therefore D \left\{ f_1(x) \times f_2(x) \right\} = D_1 f_1(x) \cdot f_2(x) + D_2 f_2(x) \cdot f_1(x).</math>
+</div>
+<p>By a process nearly similar,</p>
+<div data-bbox="527 187 914 232" data-label="Equation-Block">
+<math display="block">D \left\{ f_1(x) \div f_2(x) \right\} = \frac{D_1 f_1(x) \cdot f_2(x) - D_2 f_2(x) \cdot f_1(x)}{f_2(x)^2}</math>
+</div>
+<div data-bbox="527 232 914 330" data-label="Equation-Block">
+<math display="block">\text{Cor. 1. } d \left\{ x \div \dots x \right\} = x \div \dots x \times \left\{ \frac{dx}{x} \pm \dots \right\}</math>
+<math display="block">\therefore \frac{dx}{x} \left\{ \dots \right\}</math>
+</div>
+<div data-bbox="546 330 839 363" data-label="Equation-Block">
+<math display="block">\text{Cor. 2. } D \left\{ f(x) \times a \right\} = Df(x) \times a.</math>
+</div>
+<div data-bbox="546 363 783 395" data-label="Equation-Block">
+<math display="block">\text{Cor. 3. } d \left\{ x \times a \right\} = dx \times a.</math>
+</div>
+<div data-bbox="606 395 798 432" data-label="Equation-Block">
+<math display="block">d \left\{ a \div x \right\} = -\frac{a \cdot dx}{x^2}</math>
+</div>
+<p>PROP. VI.—To find the Differentials of Functions under the third relation.</p>
+<p>If the expression be <math>f(x)^a,</math></p>
+<div data-bbox="527 504 920 596" data-label="Equation-Block">
+<math display="block">f(x+h)^a = \left\{ f(x) + Df(x) \cdot h + \dots \right\}^a</math>
+<math display="block">= f(x)^a + a \cdot f(x)^{a-1} \cdot Df(x) \cdot h + \dots</math>
+<math display="block">\therefore D \left\{ f(x)^a \right\} = a \cdot f(x)^{a-1} \cdot Df(x).</math>
+</div>
+<p>If the expression be <math>a^{f(x)},</math></p>
+<div data-bbox="527 621 901 770" data-label="Equation-Block">
+<math display="block">a^{f(x+h)} = a^{f(x) + Df(x) \cdot h + \dots}</math>
+<math display="block">= a^{f(x)} \times a^{Df(x) \cdot h + \dots}</math>
+<math display="block">= a^{f(x)} \times \left\{ 1 + L(a) \cdot Df(x) \cdot h + \dots \right\} \times</math>
+<math display="block">= a^{f(x)} + L(a) \cdot a^{f(x)} \cdot Df(x) \cdot h + \dots</math>
+<math display="block">\therefore D \left\{ a^{f(x)} \right\} = L(a) \cdot a^{f(x)} \cdot Df(x)</math>
+</div>
+<p>If the expression be <math>\log f(x)</math> base <math>(a)</math> or <math>\frac{L f(x)}{L(a)},</math></p>
+<p><math>L</math> denoting the Napierian logarithm,</p>
+<div data-bbox="527 825 897 927" data-label="Equation-Block">
+<math display="block">L f(x+h) = L \left\{ f(x) + Df(x) \cdot h + \dots \right\}</math>
+<math display="block">= L f(x) + L \left\{ 1 + \frac{Df(x)}{f(x)} \cdot h + \dots \right\}</math>
+<math display="block">= L f(x) + \frac{Df(x)}{f(x)} \cdot h + \dots</math>
+</div>
+<div data-bbox="29 46 334 79" data-label="Equation-Block">
+<math display="block">\therefore D \{ \log f(x) \} = \frac{Df(x)}{L(a) \cdot f(x)}</math>
+</div>
+<p>Also, <math>D \{ \log (a) \text{ base } f(x) \} = D \frac{L(a)}{Lf(x)}</math> which is known.</p>
+<div data-bbox="102 135 367 164" data-label="Equation-Block">
+<math display="block">\text{Cor. 1. } d(x^{\frac{x}{2}}) = d(x^{\frac{x}{2}}) + d(x^{\frac{x}{2}})</math>
+</div>
+<div data-bbox="154 167 367 199" data-label="Equation-Block">
+<math display="block">= x \cdot x^{\frac{x}{2}-1} \cdot dx + Lx \cdot x^{\frac{x}{2}} \cdot \frac{dx}{x^2}</math>
+</div>
+<div data-bbox="102 203 317 233" data-label="Equation-Block">
+<math display="block">\text{Cor. 2. } d \left\{ x^a \right\} = ax^{a-1} \cdot dx</math>
+</div>
+<div data-bbox="161 235 326 264" data-label="Equation-Block">
+<math display="block">d \left\{ a^x \right\} = La \cdot a^x \cdot dx</math>
+</div>
+<div data-bbox="158 267 343 297" data-label="Equation-Block">
+<math display="block">d \left\{ \log(x) \right\} = \frac{dx}{La \cdot x}</math>
+</div>
+<p>The first three propositions will enable us to extend these formulae to every finite function at present used in analysis, but when we attempt to find the differentials in relations of a higher order, the difficulties increase very rapidly. Indeed, the direct calculus, which is generally considered perfect, is only less limited than the inverse. Let the most expert analyst attempt, in analogy to Prop. 2, to express the differential of the reciprocal function <math>f(x, a)</math>, by means of the direct function <math>f(x, a)</math>; let him endeavour to develop <math>(x+h)^{\frac{a}{a}}</math> in analogy to Sir Isaac <a href="https://jimclifford.ca/britannica-wiki/l/N/NEWTON.html">Newton</a>'s expansion of <math>(x+h)^{\frac{a}{a}}</math>; or let him search for the differential of <math>a^{\frac{1}{x}} = a^{\frac{a}{ax}}</math> to <math>(x)</math> terms, and he will be forced to admit the great imperfections of the instrument.</p>
+<p>To find Successive Differentials.</p>
+<p>If we take the differential of <math>Df(x)</math> considered as a new function, we obtain the second differential function <math>D \{ Df(x) \}</math>, which is represented by <math>D^2f(x)</math>, and, in the same manner, we may find the value of <math>D^n f(x) = D \{ D \{ \dots Df(x) \}</math>. The laws observed by the successive differentials of the functions previously examined are very complex, and can only be expressed by separating the differential characteristics, and operating upon them as independent symbols.</p>
+<p>PROP. VIII.—To find the Coefficients of the Differential Expansion.</p>
+<p>Since <math>f \{ x + (i+h) \} = f \{ (x+h) + i \}</math>, we develop these expressions separately, and equate their homologous terms. The first becomes</p>
+<div data-bbox="102 849 434 874" data-label="Equation-Block">
+<math display="block">f(x) + f_1(x) \cdot (i+h) + f_2(x) \cdot (i+h)^2 + \dots</math>
+</div>
+<p>which is equal to</p>
+<div data-bbox="102 893 363 917" data-label="Equation-Block">
+<math display="block">f(x) + f_1(x) \cdot i + f_2(x) \cdot i^2 + \dots</math>
+</div>
+<div data-bbox="546 40 772 61" data-label="Equation-Block">
+<math display="block">+ f_1(x) \cdot h + f_2(x) \cdot 2ih + \dots</math>
+</div>
+<p>+ ...</p>
+<p>The second becomes</p>
+<div data-bbox="500 97 854 121" data-label="Equation-Block">
+<math display="block">f(x+h) + f_1(x+h) \cdot i + f_2(x+h) \cdot i^2 + \dots</math>
+</div>
+<p>which is equal to</p>
+<div data-bbox="500 139 834 162" data-label="Equation-Block">
+<math display="block">f(x) + f_1(x) + f_2(x) + \dots</math>
+</div>
+<div data-bbox="490 161 837 185" data-label="Equation-Block">
+<math display="block">+ Df(x) \cdot h + D_1f(x) \cdot ih + D_2f(x) \cdot i^2h + \dots</math>
+</div>
+<p>+ ...</p>
+<p>And now, by equating the same powers of <math>i</math> and <math>h</math>, in the second terms of each development, <math>f(x) =</math></p>
+<div data-bbox="490 235 878 264" data-label="Equation-Block">
+<math display="block">Df(x); f_2(x) \cdot 2 = D_1f(x); f_3(x) \cdot 3 = D_2f(x);</math>
+</div>
+<div data-bbox="490 264 647 288" data-label="Equation-Block">
+<math display="block">f_n(x) \cdot n = D_{n-1}f(x).</math>
+</div>
+<div data-bbox="490 291 669 321" data-label="Equation-Block">
+<math display="block">\therefore f_n(x) = D_{n-1}f(x) \cdot \frac{1}{n}</math>
+</div>
+<div data-bbox="554 324 735 353" data-label="Equation-Block">
+<math display="block">= D^n f(x) \times \frac{1}{1 \cdot 2 \cdot \dots \cdot n}</math>
+</div>
+<p>Hence <math>f(x+h)</math> becomes</p>
+<div data-bbox="490 375 876 411" data-label="Equation-Block">
+<math display="block">f(x) + Df(x) \cdot h + \dots + D^n f(x) \cdot \frac{h^n}{1 \cdot 2 \cdot \dots \cdot n} + \dots</math>
+</div>
+<div data-bbox="490 414 675 432" data-label="Equation-Block">
+<math display="block">\text{Cor. 1. } f(x) = f(a+x)</math>
+</div>
+<div data-bbox="580 431 876 460" data-label="Equation-Block">
+<math display="block">= f(a) + Df(a) \cdot \frac{x}{1} + D^2f(a) \cdot \frac{x^2}{1 \cdot 2} + \dots</math>
+</div>
+<p>Cor. 2. <math>D^{-1}f(x)</math> is the inverse differential function, and is of such a nature that <math>D \{ D^{-1}f(x) \} = f(x)</math>.</p>
+<div data-bbox="490 536 777 564" data-label="Equation-Block">
+<math display="block">D^{-1}f(x) = D^{-1} \{ a + (x-a) \} =</math>
+</div>
+<div data-bbox="490 563 876 596" data-label="Equation-Block">
+<math display="block">D^{-1}f(a) + f(a) \cdot \frac{x-a}{1} + Df(a) \cdot \frac{(x-a)^2}{1 \cdot 2} + \dots</math>
+</div>
+<p>where <math>D^{-1}f(a)</math> is the value of <math>D^{-1}f(x)</math>, when <math>x = a</math>, and it is called the <i>Correction</i>.</p>
+<div data-bbox="511 635 846 662" data-label="Equation-Block">
+<math display="block">\text{Cor. 3. } D^{-1}f(a) = D^{-1} \{ x + (a-x) \} =</math>
+</div>
+<div data-bbox="511 662 878 691" data-label="Equation-Block">
+<math display="block">D^{-1}f(x) + f(x) \cdot \frac{a-x}{1} + Df(x) \cdot \frac{(a-x)^2}{1 \cdot 2} + \dots</math>
+</div>
+<div data-bbox="490 695 813 725" data-label="Equation-Block">
+<math display="block">\therefore D^{-1}f(x) = D^{-1}f(a) - f(x) \cdot \frac{a-x}{1} -</math>
+</div>
+<div data-bbox="490 728 666 760" data-label="Equation-Block">
+<math display="block">Df(x) \cdot \frac{(a-x)^2}{1 \cdot 2} - \dots</math>
+</div>
+<p>From these theorems the inverse calculus may be deduced by direct processes.</p>
+<p>Cor. 4. There is nothing in the nature of analysis which necessarily limits expansions to the differential form. The series may be conceived to proceed by other functions of <math>x</math> and <math>h</math>; it even may not consist of a succession of sums, but may ascend by products, or according to any other relation. Thus</p>
+<p>we may find the successive terms of <math>(x \times i^h)</math> when developed in the form</p>
+<div data-bbox="197 41 432 71" data-label="Equation-Block">
+<math display="block">f(x) \times f(x)^h \times f(x)^{h^2} \times \dots</math>
+</div>
+<p>For, let <math>f(x)</math> be called the <i>factorial function</i> of <math>f(x)</math>, and let its relation to <math>f(x)</math> be thus expressed, <math>f(x) = Pf(x)</math>; then by expanding</p>
+<div data-bbox="197 140 432 164" data-label="Equation-Block">
+<math display="block">f(x \times s^{i+h}) = f(x \cdot s^h \times s^i)</math>
+</div>
+<p>and by equating the like powers of <math>i</math> and <math>h</math>, we shall find <math>f(x \times s^h)</math> become</p>
+<div data-bbox="179 203 447 241" data-label="Equation-Block">
+<math display="block">f(x) \times Pf(x)^{\frac{h}{i}} \times P^2 f(x)^{\frac{h^2}{i^2}} \times \dots</math>
+</div>
+<p>a theorem entirely analogous to that of Taylor, and presenting a <i>factorial calculus</i> on principles similar to the differential. It is not, however, necessary to deduce the values of <math>Pf(x)</math>, by making it the subject of distinct investigations, since Mr <a href="https://jimclifford.ca/britannica-wiki/l/H/HERSCHEL.html">Herschel</a>, on seeing the formula, has discovered an expression for <math>Pf(x)</math> by means of <math>Df(x)</math>, and observes, that the factorial calculus so harmonizes with the differential, that either may be established, and the other deduced from it.</p>
+<p>Differentials depend upon the development of <math>f \left\{ x \pm a \frac{h}{2} \right\}</math>, factorials upon <math>f \left\{ x \pm a \frac{h}{2} \right\}</math>, and it is obvious that a wide field is open for <math>f \left\{ x \pm a \frac{h}{2} \right\}</math>.</p>
+<p>Mr Whewell further suggests the idea of an expansion, in which the relation of the successive terms shall be expressed by a functional characteristic.</p>
+<p>The object of the calculus is not to show that every function of the form <math>f(x+h)</math> must necessarily proceed by integer powers of <math>h</math>. The legitimate design is to exhibit the relation subsisting among the successive terms, and to find the value of <math>Df(x)</math> in complex expressions, by means of the values in the primary functions. It supposes the general form of development given, and leaves the determination of the second terms, in the expansion of the primary functions, to the artifices of the ordinary algebra.</p>
+<p>PROP. IX.—To find the Differentials of Continuous Quantities.</p>
+<p>Let <math>(x)</math> be a known discrete variable, and let any continuous quantity, which varies with <math>(x)</math>, be represented by <math>\Psi(x)</math>, an unknown function of <math>(x)</math>. If then <math>x</math> becomes <math>x+h</math>, <math>\Psi(x)</math> becomes <math>\Psi(x+h)</math>, and we obtain the following equal ratios:</p>
+<div data-bbox="162 745 494 833" data-label="Equation-Block">
+<math display="block">\begin{aligned} \Delta x : \Delta \Psi(x) \\ (x+h) - x : \Psi(x+h) - \Psi(x) \\ h : D\Psi(x) \cdot h + \dots \\ 1 : D\Psi(x) + D^2\Psi(x) \cdot \frac{h}{1.2} + \dots \end{aligned}</math>
+</div>
+<p>Let <math>Q</math> and <math>Q'</math> be discrete known variables, one always greater, and the other always less than <math>\Delta \Psi(x)</math>. Also, let the ratios</p>
+<div data-bbox="266 877 352 911" data-label="Equation-Block">
+<math display="block">\begin{aligned} \Delta x : Q \text{ and} \\ \Delta x : Q' \end{aligned}</math>
+</div>
+<p>be such, that both may be made to approach nearer than by any assignable difference, to the ratio</p>
+<div data-bbox="697 73 760 90" data-label="Equation-Block">
+<math display="block">1 : f(x).</math>
+</div>
+<p>Then, since <math>Q</math> and <math>Q'</math> are one greater and the other less than <math>\Delta \Psi(x)</math>, the ratio of</p>
+<div data-bbox="697 120 753 137" data-label="Equation-Block">
+<math display="block">1 : f(x)</math>
+</div>
+<p>cannot possibly differ from that ratio to which</p>
+<div data-bbox="654 155 777 172" data-label="Equation-Block">
+<math display="block">\Delta x : \Delta \Psi(x), \text{ or}</math>
+</div>
+<div data-bbox="670 172 792 189" data-label="Equation-Block">
+<math display="block">1 : D\Psi(x) + \dots</math>
+</div>
+<p>approaches nearer than by any assignable difference. It may further be proved, that the only ratio which can be true is,</p>
+<div data-bbox="645 232 807 250" data-label="Equation-Block">
+<math display="block">1 : f(x) :: 1 : D\Psi(x)</math>
+</div>
+<div data-bbox="563 250 751 267" data-label="Equation-Block">
+<math display="block">\therefore D\Psi(x) = f(x), \text{ and}</math>
+</div>
+<div data-bbox="609 267 751 284" data-label="Equation-Block">
+<math display="block">\Psi(x) = D^{-1}f(x).</math>
+</div>
+<p>If, therefore, we are investigating any curve, or the motion of any body, where the analytical value is unknown, Newton lays it down as a <i>practical rule</i> for finding the differentials, that they will be in the <i>limiting ratio</i> of the corresponding increments, viz. in the ratio to which the increments approach nearer than by any assignable difference. This practical rule, offered by the great inventor, may be demonstrated <i>ex absurdo</i>, with all the rigour of the ancient geometry. The formula of Taylor not having been distinctly expressed, Newton could not lay down the analytical theory of his calculus, but he left a <i>practical rule</i>, which is the best that has yet been proposed, and he left an <i>illustration</i>, the most beautiful in the circle of the sciences. He compared the differentials to the velocities of a body in motion. Many modern writers still define differentials by means of the limiting ratio; but this is as inconsistent, as it would be to define multiplication by the mechanical rule for finding the product. The method of infinitesimals is now universally exploded, having been originally proposed by <a href="https://jimclifford.ca/britannica-wiki/l/L/LEIBNITZ.html">Leibnitz</a>, who, perceiving that Newton's results depended solely on the second terms, supposed that his calculus must consist in making the subsequent terms vanish. The results were here happily correct, though a similar attempt to appropriate the theory of gravitation was wholly unsuccessful. The latest <a href="https://jimclifford.ca/britannica-wiki/l/E/ENGLISH.html">English</a> work on this branch of analysis, is the <i>Translation of La <a href="https://jimclifford.ca/britannica-wiki/l/C/CROIX.html">Croix</a>'s Treatise</i>, where Mr Peacock gives a luminous view of the different theories on the subject. (x. x.)</p></div></main><footer class="site">Page images digitised by the National Library of Scotland · Text extraction, article segmentation, and lineage analysis are this project's own · <a href="https://jimclifford.ca/britannica-wiki/about.html">About &amp; method</a> · <a href="https://github.com/jburnford/britannica-wiki/issues">Suggest a correction</a></footer></div></body></html>
